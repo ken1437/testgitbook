@@ -1,4 +1,10 @@
-{ 
+{
+    "author": "SuperSuRaccoon",
+    "links": {
+        "sidebar": {
+            "My Blog": "http://www.supersuraccoon-cocos2d.com"
+        }
+    },
     "plugins" : 
     [
         "advanced-emoji",
@@ -8,20 +14,6 @@
         "katex",
         "mermaid-compat",
         "chart",
-        "search-pro"
-    ],
-    "pluginsConfig": 
-    {
-        "sharing": {
-            "weibo": true,
-            "facebook": true,
-            "twitter": true
-        },
-        "disqus": {
-            "shortName": "xxxxxx"
-        },
-        "search-pro": {
-            "cutWordLib": "nodejieba"
-        }
-    }
+        "-search-pro"
+    ]
 }
